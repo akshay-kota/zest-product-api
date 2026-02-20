@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: zest-product-api
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/zestdb
+    username: root
+    password: Root@123
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+  profiles:
+    active: local
+
+server:
+  port: 8585

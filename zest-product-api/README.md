@@ -43,7 +43,7 @@ CREATE DATABASE zestdb;
 ```
 3. **Run Application :**
 ```sql
- mvn spring-boot:run -Dspring-boot.run.profiles=local
+ mvn spring-boot:run
 ```
 4. **Access Swagger:**
 
@@ -54,7 +54,7 @@ CREATE DATABASE zestdb;
 5. **How To Run With Docker**
 
 ```sql
-Cdocker compose up --build
+ docker compose up --build
 ```
  Access Swagger:
 ```sql

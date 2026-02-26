@@ -42,9 +42,11 @@ A Spring Boot REST API for managing products with JWT authentication, role-based
 CREATE DATABASE zestdb;
 ```
 3. **Run Application :**
-```sql
- mvn spring-boot:run
+
+```bash
+mvn spring-boot:run
 ```
+
 4. **Access Swagger:**
 
 ```sql
@@ -53,9 +55,15 @@ CREATE DATABASE zestdb;
 
 5. **How To Run With Docker**
 
-```sql
- docker compose up --build
+ Navigate to project directory
+
+  cd zest-product-api
+
+ Build and start containers
+```bash
+docker compose up --build
 ```
+
  Access Swagger:
 ```sql
  http://localhost:8585/swagger-ui/index.html
